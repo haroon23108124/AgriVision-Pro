@@ -7,7 +7,8 @@ from sklearn.metrics import accuracy_score, classification_report
 from features import extract_features 
 
 
-DATASET_DIR = r"C:\Users\haroo\Desktop\PlantVillage" 
+DATASET_DIR = "dataset/PlantVillage"
+ 
 MODEL_NAME = "plant_disease_rf_model.pkl"
 
 def main():
@@ -67,4 +68,5 @@ def main():
     print(f"\nModel saved successfully as '{MODEL_NAME}'")
 
 if __name__ == "__main__":
+
     main()
