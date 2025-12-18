@@ -3,7 +3,6 @@
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-orange)
 ![Status](https://img.shields.io/badge/Status-Academic%20Project-brightgreen)
 
-
 # 🌿 AgriVision Pro – Plant Disease Detection System
 
 AgriVision Pro is a desktop-based machine learning application designed to automatically detect and classify plant diseases from leaf images. The system uses a hybrid approach combining unsupervised image segmentation and supervised classification.
@@ -47,5 +46,6 @@ AgriVision Pro is a desktop-based machine learning application designed to autom
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
+
 
 
